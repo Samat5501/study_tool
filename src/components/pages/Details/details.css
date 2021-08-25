@@ -1,0 +1,119 @@
+.details{
+    width: 1555px;
+    height: 90.8vh;
+    text-align: start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-bottom: solid 2px gray;
+}
+
+.title__details{
+    font-size: 45px;
+    text-transform: capitalize;
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    color: red;
+    margin-left: 10px;
+}
+
+.title__details div{
+    margin-left: 30px;
+}
+
+.details_des{
+    font-size: 22px;
+    width: 800px;
+    word-wrap: break-word;
+    /* border: solid 1px blue; */
+    margin-left: 40px;
+}
+
+.description__details{
+  margin-top: -35px;
+  margin-left: 30px;
+  font-size: 26px;
+  color: rgb(119, 204, 70);
+  text-transform: capitalize;
+}
+.p__details{
+    color: rgb(209, 209, 165);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.code__details{
+    margin-left: 50px;
+    width: 700px;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(209, 136, 77);
+    text-align: start;
+    text-align: alignment type;
+}
+
+.link__details{
+    margin-bottom: 50px;
+}
+
+span{
+    font-size: 28px;
+    color: rgb(119, 204, 70);
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.code{
+    font-family: 'Source Code Pro', monospace;
+    color: brown;
+}
+
+.link__title{
+    padding-bottom: 50px;
+}
+.link__link{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .details{
+    width: 480px;
+    position: sticky;
+    top: 0px;
+    text-align: start;
+    overflow-y: scroll;
+    border-bottom: solid 2px gray;
+    /* z-index: 20; */
+}
+    .title__details{
+    /* margin-top: -60px; */
+    font-size: 45px;
+    text-transform: capitalize;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    z-index: 9;
+    /* background: rgb(100, 97, 97); */
+}
+.description__details{
+    margin-left: 10px;
+}
+.details_des{
+    font-size: 22px;
+    width: 430px;
+    word-wrap: break-word;
+    margin-left: 20px;
+}
+
+span{
+    margin-left: 20px;
+}
+.code__details{
+    margin-left: 35px;
+    width: 500px;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(207, 145, 94);
+    text-align: start;
+}
+
+}

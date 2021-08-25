@@ -1,0 +1,251 @@
+.bg-bl{
+    width: 1375px;
+    height: auto;
+    background: #000;
+    height: 90.8vh;
+}
+
+.sign {
+    width: 900px;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1616212145026-6b56a5b3e01f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.empty_sign-page{
+    width: 369px;
+    height: 90vh;
+   position: relative;
+}
+.img_title{
+    position: absolute;
+    top: 55px;
+    left: 115px;
+    font-size: 32px;
+    color: white;
+}
+
+.img_text{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(255, 251, 251);
+    width: 270px;
+    font-weight: 600;
+}
+
+.sign_link{
+    position: relative;
+    top: 410px;
+     width: 100px;
+    height: 36px;
+    margin: 0 auto;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    border: white 3px solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.sign_link a{
+    color: white;
+}
+
+.sign_user{
+    padding: 20px;
+    width: 450px;
+    height: 90vh;
+}
+
+.sign_up-h1{
+    color: white;
+    margin-right: 110px;
+    margin-top: 38px;
+    font-size: 32px;
+}
+
+.first__input {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.second__input {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+input:hover {
+    border: solid 1px rgb(36, 36, 216);
+}
+
+.hkOJGu{
+    margin-top: 30px;
+}
+
+.ant-input-affix-wrapper>input.ant-input {
+    margin-top: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.ant-space-item{
+        margin-left: -0px;
+        width: 248px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .ant-input-affix-wrapper {
+        width: 248px;
+        margin-left: -100px;
+        height: 50px;
+    }
+
+    .sign_link_2{
+        color: white;
+        background: transparent;
+        border-radius: 30px;
+        width: 130px;
+        height: 46px;
+        margin-top: 14px;
+        margin-left: 80px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid white;
+        cursor: pointer;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 10px 30px;
+    }
+    .sign_link1{
+    position: relative;
+    top: 330px;
+     width: 100px;
+    height: 36px;
+    margin: 0 auto;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    border: white 3px solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.sign_link1 a{
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+.bg-bl{
+    width: 480px;
+    background: #000;
+    height: 650px;
+}
+.sign {
+   width: 480px;
+   height: 800px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   background-image: url("https://images.unsplash.com/photo-1616212145026-6b56a5b3e01f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: white 1px solid;
+}
+
+.empty_sign-page{
+    /* display: none; */
+   position: relative;
+}
+
+.img_title{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    font-size: 32px;
+    color: white;
+}
+
+.img_text{
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    font-size: 20px;
+}
+
+.sign_link{
+    position: relative;
+    top: 215px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.sign_link1{
+    position: relative;
+    top: 210px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.sign_link a{
+    color: white;
+}
+
+.sign_user{
+    width: 400px;
+}
+
+.sign_up-h1{
+    color: white;
+    margin-right: 0px;
+    margin-top: -130px;
+    font-size: 32px;
+}
+
+.first__input {
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+.second__input {
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+.ant-space-item{
+        margin-left: 110px;
+        width: 248px;
+        margin-top:12px;
+        margin-bottom: 20px;
+    }
+
+.sign_link_2{
+        color: white;
+        background: transparent;
+        border-radius: 30px;
+        width: 120px;
+        height: 45px;
+        margin-top: 30px;
+        margin-left: 120px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid white;
+    }
+}

@@ -1,0 +1,91 @@
+.list {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 1055px;
+    color: black;
+    height: 610px;
+    overflow: auto;
+    border-bottom: solid 2px gray;
+}
+
+.btn-list_1{
+    font-size: 16px;
+    color: rgb(122, 221, 65);
+    border: solid 2px rgb(95, 81, 81);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: start;
+}
+.btn-list_3{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(226, 79, 79);
+    border: solid 2px rgb(95, 81, 81);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input{
+    width: 950px;
+    margin-left: 20px;
+}
+
+.list__btn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: -120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.list__title{
+    margin-top: 20px;
+    margin-left: -150px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .list {
+    margin: 0px auto;
+    width: 460px;
+    height: 634px;
+    overflow-y: auto;
+}
+.list__title{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.list__btn{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+textarea{
+    height: 60px;
+}
+.input{
+  width: 430px;
+  height: 50px;
+}
+#link{
+    /* margin-top: 40px; */
+    height: 50px;
+}
+.btn-list_1{
+    font-size: 16px;
+    color: rgb(122, 221, 65);
+}
+.btn-list_3{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(226, 79, 79);
+}
+
+}

@@ -1,0 +1,117 @@
+.main{
+    text-align: center;
+}
+.block__2{
+    background-color: #593d88;
+    margin: 0 auto;
+    padding: 70px;
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home__img img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 20px;
+} 
+
+.home__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h1{
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.h2{
+    font-size: 28px;
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+
+.black__block{
+width: 100%;
+text-align: center;
+}
+.home__button{
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.homeData{
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 520px;
+}
+.home__text{
+    width: 250px;
+    height: 250px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: start;
+    border-bottom: black 2px solid;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.home__title{
+    margin-top: 30px;
+    font-size: 28px;
+   
+}
+
+@media screen and (max-width: 480px){
+    .homeData{
+        height: auto;
+    }
+    .home__text{
+        margin-top: 20px;
+        width: 370px;
+        height: auto;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .home__img img{
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+        text-align: center;
+        /* border: chartreuse 1px; */
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .h2{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .block__2{
+    background-color: #593d88;
+    margin: 0 auto;
+    padding: 160px;
+    width: 480px;
+    }
+    .black__block{
+    width: 480px;
+    }
+}
